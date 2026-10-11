@@ -1,0 +1,2 @@
+/bin/ar qc libsrsran_radio.a CMakeFiles/srsran_radio.dir/plugin_radio_factory.cpp.o CMakeFiles/srsran_radio.dir/radio_factory.cpp.o
+/bin/ranlib libsrsran_radio.a

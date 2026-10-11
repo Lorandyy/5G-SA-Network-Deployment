@@ -1,0 +1,56 @@
+cu_cp:
+  amf:
+    addr: 172.22.0.10
+    port: 38412
+    bind_addr: 172.22.0.1
+    supported_tracking_areas:
+      - tac: 4500
+        plmn_list:
+          - plmn: "24408"
+            tai_slice_support_list:
+              - sst: 1
+                sd: 0xd143a5
+
+ru_sdr:
+  device_driver: uhd
+  device_args: type=soapy,driver=lime,serial=0009060B00542B1A
+  srate: 30.72  # 11.52
+  otw_format: sc16
+  tx_gain: 35 # 35
+  rx_gain: 35
+#  time_alignment_calibration: -288
+
+cell_cfg:
+  dl_arfcn: 519000  #156000
+  band: 38 #28
+  channel_bandwidth_MHz: 20 # 10
+  common_scs: 30 #15
+  plmn: "24408"
+  tac: 4500
+  pci: 1
+  nof_antennas_dl: 1
+  nof_antennas_ul: 1
+# added testing, sinr still the same
+#  pdcch:
+#    dedicated:
+ #     ss2_type: common
+  #    dci_format_0_1_and_1_1: false
+ #   common:
+ #     ss0_index: 0
+ #     coreset0_index: 0
+ # prach:
+#    prach_config_index: 1
+#    zero_correlation_zone: 0
+  #  preamble_rx_target_pw: -100
+  #pdsch:
+  #  mcs_table: qam64
+  #pusch:
+  #  msg3_delta_preamble: 6
+#  ssb:
+#    ssb_block_power_dbm: -8
+
+log:
+  filename: /tmp/gnb.log
+  all_level: info
+  mac_level: debug
+  phy_level: info

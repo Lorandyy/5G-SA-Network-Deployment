@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/du_manager/srs_resource_generator_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/du_manager/srs_resource_generator_test[1]_tests.cmake")
+else()
+  add_test(srs_resource_generator_test_NOT_BUILT srs_resource_generator_test_NOT_BUILT)
+endif()

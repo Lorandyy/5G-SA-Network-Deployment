@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/rlc/rlc_retx_queue_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/rlc/rlc_retx_queue_test[1]_tests.cmake")
+else()
+  add_test(rlc_retx_queue_test_NOT_BUILT rlc_retx_queue_test_NOT_BUILT)
+endif()

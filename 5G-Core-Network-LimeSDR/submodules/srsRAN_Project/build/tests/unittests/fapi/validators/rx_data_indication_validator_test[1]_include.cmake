@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/fapi/validators/rx_data_indication_validator_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/fapi/validators/rx_data_indication_validator_test[1]_tests.cmake")
+else()
+  add_test(rx_data_indication_validator_test_NOT_BUILT rx_data_indication_validator_test_NOT_BUILT)
+endif()

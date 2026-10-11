@@ -1,0 +1,2 @@
+/bin/ar qc libsrsran_mac_to_fapi_translator.a CMakeFiles/srsran_mac_to_fapi_translator.dir/mac_to_fapi_translator.cpp.o
+/bin/ranlib libsrsran_mac_to_fapi_translator.a

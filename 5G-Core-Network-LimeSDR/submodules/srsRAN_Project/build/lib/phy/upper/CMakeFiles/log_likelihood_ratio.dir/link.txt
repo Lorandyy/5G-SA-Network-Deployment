@@ -1,0 +1,2 @@
+/bin/ar qc liblog_likelihood_ratio.a CMakeFiles/log_likelihood_ratio.dir/log_likelihood_ratio.cpp.o
+/bin/ranlib liblog_likelihood_ratio.a

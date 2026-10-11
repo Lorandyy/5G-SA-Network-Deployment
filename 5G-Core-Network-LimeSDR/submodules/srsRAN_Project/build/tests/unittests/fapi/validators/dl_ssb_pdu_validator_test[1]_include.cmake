@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/fapi/validators/dl_ssb_pdu_validator_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/fapi/validators/dl_ssb_pdu_validator_test[1]_tests.cmake")
+else()
+  add_test(dl_ssb_pdu_validator_test_NOT_BUILT dl_ssb_pdu_validator_test_NOT_BUILT)
+endif()

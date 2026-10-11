@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/pcap/rlc_pcap_test.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pcap"
+		],
+		"name" : "pcap_rlc_test"
+	}
+}

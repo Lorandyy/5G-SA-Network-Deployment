@@ -1,0 +1,4 @@
+# Directory labels
+ security
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/security/security_test.cpp

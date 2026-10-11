@@ -1,0 +1,4 @@
+# Directory labels
+ support
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/support/event_tracer_test.cpp

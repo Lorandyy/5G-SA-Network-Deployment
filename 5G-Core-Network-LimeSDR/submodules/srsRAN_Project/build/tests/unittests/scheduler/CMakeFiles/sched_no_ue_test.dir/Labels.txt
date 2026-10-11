@@ -1,0 +1,4 @@
+# Directory labels
+ sched
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/scheduler/scheduler_no_ue_test.cpp

@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/adt/ring_buffer_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/adt/ring_buffer_test[1]_tests.cmake")
+else()
+  add_test(ring_buffer_test_NOT_BUILT ring_buffer_test_NOT_BUILT)
+endif()

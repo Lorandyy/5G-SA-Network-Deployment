@@ -1,0 +1,2 @@
+/bin/ar qc libngap_test_helpers.a CMakeFiles/ngap_test_helpers.dir/ngap_test_helpers.cpp.o CMakeFiles/ngap_test_helpers.dir/ngap_test_messages.cpp.o
+/bin/ranlib libngap_test_helpers.a

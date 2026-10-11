@@ -1,0 +1,4 @@
+# Directory labels
+ ethernet
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/ofh/ethernet/ethernet_frame_pool_test.cpp

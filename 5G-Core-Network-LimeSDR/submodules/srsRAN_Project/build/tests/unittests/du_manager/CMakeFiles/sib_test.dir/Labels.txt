@@ -1,0 +1,4 @@
+# Directory labels
+ du_manager
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/du_manager/sib_test.cpp

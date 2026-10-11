@@ -1,0 +1,2 @@
+/bin/ar qc libsrsran_ue_security_manager.a CMakeFiles/srsran_ue_security_manager.dir/ue_security_manager_impl.cpp.o
+/bin/ranlib libsrsran_ue_security_manager.a

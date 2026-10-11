@@ -1,0 +1,4 @@
+# Directory labels
+ du_high|tsan
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/benchmarks/du_high/du_high_benchmark.cpp

@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/ofh/transmitter/ofh_data_flow_uplane_downlink_data_impl_test[1]_tests.cmake")
+  include("/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/tests/unittests/ofh/transmitter/ofh_data_flow_uplane_downlink_data_impl_test[1]_tests.cmake")
+else()
+  add_test(ofh_data_flow_uplane_downlink_data_impl_test_NOT_BUILT ofh_data_flow_uplane_downlink_data_impl_test_NOT_BUILT)
+endif()

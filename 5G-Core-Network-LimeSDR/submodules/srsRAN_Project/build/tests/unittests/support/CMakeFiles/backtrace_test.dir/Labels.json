@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/support/backtrace_test.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"support"
+		],
+		"name" : "backtrace_test"
+	}
+}

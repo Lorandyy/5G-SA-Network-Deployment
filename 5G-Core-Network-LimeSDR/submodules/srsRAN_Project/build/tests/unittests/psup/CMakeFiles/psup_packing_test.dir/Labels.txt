@@ -1,0 +1,4 @@
+# Directory labels
+ psup
+# Source files and their labels
+/home/ubuntu/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/tests/unittests/psup/psup_packing_test.cpp
