@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['ratio_5f1_5f1_4999',['RATIO_1_1',['../namespaceuhd_1_1rfnoc.html#aabaa54a12a792ad8c1eb4be29ad84408acca818d707ae37223fcfd2d3a0691421',1,'uhd::rfnoc']]],
+  ['ratio_5f1_5f256_5000',['RATIO_1_256',['../namespaceuhd_1_1rfnoc.html#aabaa54a12a792ad8c1eb4be29ad84408a892acf1d30e0894f4e01b6fa78944478',1,'uhd::rfnoc']]],
+  ['ratio_5f1_5f64_5001',['RATIO_1_64',['../namespaceuhd_1_1rfnoc.html#aabaa54a12a792ad8c1eb4be29ad84408aec7c7b4caeec32f21a5dc932b15b12d2',1,'uhd::rfnoc']]],
+  ['ratio_5f1_5f8_5002',['RATIO_1_8',['../namespaceuhd_1_1rfnoc.html#aabaa54a12a792ad8c1eb4be29ad84408a1d1882b5b3bd2405c5f7c4b1b428058f',1,'uhd::rfnoc']]],
+  ['rc_5003',['RC',['../namespaceuhd_1_1usrp_1_1cal.html#a48b1a78fb63c973e5150bb82ea10badda75b9a229bb1873d751a1e0f775ceb2aa',1,'uhd::usrp::cal']]],
+  ['real_5004',['REAL',['../classuhd_1_1usrp_1_1fe__connection__t.html#aadf0572b3c622e61053ed405327ec61fa725d18ca82a9bec84c0c16fd5bafb755',1,'uhd::usrp::fe_connection_t']]],
+  ['realnum_5005',['REALNUM',['../structuhd_1_1sensor__value__t.html#a1f6bf20f81b094c002bf06e3903a37e1a3229a783186316b52f65c25b778b2092',1,'uhd::sensor_value_t']]],
+  ['ref_5fclk_5fcalibration_5006',['REF_CLK_CALIBRATION',['../classuhd_1_1features_1_1discoverable__feature.html#a1a5a211601b5474a17afb6e6bd91c927a2ebf0972a7f2eb9d827f37a53478acda',1,'uhd::features::discoverable_feature']]],
+  ['reserved0_5007',['RESERVED0',['../classuhd_1_1features_1_1discoverable__feature.html#a1a5a211601b5474a17afb6e6bd91c927a457aae4b2eb9c829a6f78bea674b5a52',1,'uhd::features::discoverable_feature']]],
+  ['reserved1_5008',['RESERVED1',['../classuhd_1_1features_1_1discoverable__feature.html#a1a5a211601b5474a17afb6e6bd91c927a9ce3f82869739e0eafd1d143d8057bf6',1,'uhd::features::discoverable_feature']]],
+  ['reverse_5009',['REVERSE',['../namespaceuhd_1_1rfnoc.html#a4a6db74097698c64df3a959486bccf83a642e0b6684e6165e142c074f1cd8d55c',1,'uhd::rfnoc::REVERSE()'],['../namespaceuhd_1_1rfnoc.html#a736db94b99d4f6dd8d9a72c77c196958a642e0b6684e6165e142c074f1cd8d55c',1,'uhd::rfnoc::REVERSE()']]],
+  ['ro_5010',['RO',['../classuhd_1_1rfnoc_1_1property__base__t.html#a4a594ebe265c2a5a9dd5fb3452ed42f5a2b89095e0548c93f24e6e1342720f1c5',1,'uhd::rfnoc::property_base_t']]],
+  ['rw_5011',['RW',['../classuhd_1_1rfnoc_1_1property__base__t.html#a4a594ebe265c2a5a9dd5fb3452ed42f5aa1ca0c7ef59ca42ffe16583a11e48395',1,'uhd::rfnoc::property_base_t']]],
+  ['rwlocked_5012',['RWLOCKED',['../classuhd_1_1rfnoc_1_1property__base__t.html#a4a594ebe265c2a5a9dd5fb3452ed42f5affc13021fc0aab5e71fab43a0cf1c4f5',1,'uhd::rfnoc::property_base_t']]],
+  ['rx_5fdirection_5013',['RX_DIRECTION',['../namespaceuhd.html#a15fbb7809a271ea929ea2390624eb425a5d8193bc8201b25945aaa4b02c6b9bf1',1,'uhd']]],
+  ['rx_5fstream_5014',['RX_STREAM',['../structuhd_1_1rfnoc_1_1graph__edge__t.html#a6c2c99c0c0efbc463c5b86d125aa6d4baa910ab4d0c3d280182c4e0b1da5cba80',1,'uhd::rfnoc::graph_edge_t']]]
+];

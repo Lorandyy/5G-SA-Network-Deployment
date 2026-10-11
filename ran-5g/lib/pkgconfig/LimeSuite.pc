@@ -1,0 +1,15 @@
+prefix=/home/ubuntu/ran-5g
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LimeSuite
+Description: Driver and GUI for LMS7002M-based SDR platforms.
+URL: https://myriadrf.org/projects/lime-suite/
+Version: 23.11.0-gb39cb61e
+Requires:
+Requires.private:
+Conflicts:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lLimeSuite
+Libs.private:

@@ -1,0 +1,16 @@
+
+-----OCUDU-----
+https://ocudu.org/
+https://docs.ocudu.org/user_manual/installation/
+https://docs.ocudu.org/user_manual/running/
+-----BladeRF-----
+https://github.com/srsran/srsRAN_Project/discussions/222#discussioncomment-7120314
+https://github.com/pothosware/SoapyBladeRF
+https://github.com/pothosware/SoapyUHD
+-----Extra------
+https://github.com/EttusResearch/uhd
+https://github.com/ngkore/Open5GS-srsRAN
+https://github.com/herlesupreeth/docker_open5gs
+https://github.com/open5gs/open5gs
+-----LimeSDR----
+https://github.com/ramosaurio/5G-Core-Network-LimeSDR/tree/master

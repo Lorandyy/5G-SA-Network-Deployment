@@ -1,0 +1,101 @@
+
+Week 1:
+
+- OpenSSH for remote connections (IP: 92.87.91.48)
+- Installed Open5GS, SoapySDR, OCUDU, BladeRF Dependencies, etc.
+- BladeRF - updated to firmware 2.4.0
+- Installed Docker to containerize Open5GS + WebUI & Grafana
+
+ubuntu@5GProject:~/ocudu/build/apps/gnb$ sudo ./gnb -c ~/ocudu/gnb.yml -> to run OCUDU gNB
+
+## bogdan entry 
+short: 1. uhd path mismatch, 'make install' was dumping libsoapySupport.so into different folder but uhd 4.1 scans another folder, so the plugin was never seen
+       2. duplicate module conflict with libuhdSupport.so in both usr/lib and usr/local/lib, causing errors
+       
+fixing steps - rebuilt soapyuhd properly
+		- nuked dupe module in usr/local
+		- copied plugin in folder that uhd 4.1 scans
+		- rebuilt ocudu with uhd enable flag
+
+next day: talked to gemini to solve radio error; nothing worked until i commented out the error in
+C code; it serves no purpose and can be bypassed
+	also managed to configure amf, upf, nrf, gnb.yml  to have correct amf-pointing ip 172.22.0.10
+theoretically should work, bladeRF stopped working
+	also configured lower dB max for rx or tx
+	
+# lorand entry
+
+1. changed ocudu/configs/cu.cp.yml amf addrs from 127.0.1.100 to 172.22.0.10 to match open5gs
+and bind_addrs to 0.0.0.0 instead of 127.0.0.1 so that it can reach addrs easiser (changed back to 0.0.0.0)
+2. when running gNB, it loads, AMF is connected on 172.22.0.10:38412, BUT "NG Setup Procedure" failed (unkown-PLMN-or-SNPN), CU-CP failed to connect to AMF
+
+gnb.yml: cell_cfg: dl = 780500, band: 28, ul = 725500, arfcn: 156100, 145100, common_scs: 15, all_level -> maybe change it? (debug)
+
+after modifying gnb.yml, OCUDU ERROR: Maximum PUSCH and SR concurrency (i.e., 2) exceeds the number of main pool threads (i.e., 1), before, gNB would "run", but it would loop 
+[ERROR @ host/libraries/libbladeRF/src/streaming/sync.c:336] wait_for_buffer: Timed out waiting for buf_ready after 1 ms
+
+3. trying to migrate to OpenAirInterface for the gNB simulation (includes native bladeRF support)
+
+# bogdan entry tuesday week 2
+
+gnb config file from OAI is the one that works
+retrieved basic config file from OAI configs
+configured amf, upf, smf with correct addresses
+updated firmware for FPGA and bladeRF to latest to remove connection timing differences
+using 15 khz band, n28, 10mhz bandwidth
+(removed port mapping) commented out ports: from UPF as it is being ran internally so there's no need for exposed port
+set gtp-u interfaces correctly
+sampling rate of 15.36 msps
+fixed PUSCH time domain allocation and delta preamble (provided enough duration and delay)
+commented out client: smf: -address: from upf.yaml but kept PFCP - this is to fix an overlap in addresses
+
+OAI has integrated 'libbladeRF' library - no need for Soapy UHD wrapper which can complicate things
+Although would like to try OCUDU too after upgrading firmware; maybe there's a need to patch a few things in the driver
+
+Also: edited limits for 'libbladeRF' native integration - this was made for 4G traffic, having built-
+in 4G limits - I removed the 4G buffer and transfer rate limits and added 5G numbers and now it works
+(i think)
+
+correct config file : ~/oai_5g_gnb/openairinterface5g/gnb_conf4.conf 
+
+run GNB thru OAI: sudo ./nr-softmodem -O ~/oai_5g_gnb/openairinterface5g/gnb_conf4.conf --sa
+run GNB thru OCUDU: sudo gnb -c ~/ocudu/gnb.yml
+
+wrote nano +1540 /openair2/GNB_APP/gnb_config.c config.minRXTXTIME = 6
+wrote in nano +40 /openair1/SCHED_NR/nr_prach_procedures.c THIS: gNB->measurements.prach_I0 + 220
+nano +1124 openair2/LAYER2/NR_MAC_gNB/nr_radio_config.c THIS: const int k2 = min_fb_delay; to 4;
+
+# bogdan entry tuesday week 4
+
+followed 5g-limesdr implementation
+configured gnb conf file
+configured /submodules/srsRAN_Project/lib/phy/upper/channel_processors/channel_processors_factories
+.cpp lines 786/794 to not get anymore PRACH errors, commented in there
+status: gnb works, amf sees gnb, curious about x-cal and if it sees UE
+
+# entry wednesday w4
+
+multiple gnbs installed means normal command runs older gnb
+therefore working GNB command:
+sudo ~/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/build/apps/gnb/gnb -c ~/5G-Core-Network-LimeSDR/submodules/srsRAN_Project/configs/gnb_rf_limesdr_n28.yml
+
+see logs: tail -f /tmp/gnb.log
+
+logs give late DLL_TI.request from slot x; skipped slot indication: cause: DL task q is full
+PDCCH PDSCH PUSCH PUCCH discarded
+Downlink data late for sector 0
+
+fix i'm trying: setting CPU governor to performance
+sudo apt install -y cpufrequtils
+sudo cpufreq-set -r -g performance
+2. Increase Linux Socket/USB Buffers:
+sudo sysctl -w net.core.rmem_max=50000000
+sudo sysctl -w net.core.wmem_max=50000000
+sudo sysctl -w net.core.rmem_default=50000000
+sudo sysctl -w net.core.wmem_default=50000000
+
+# entry week 5
+
+Managed to connect the UE, it received its IP, but the RF is very unstable (Real-time failure in RF continuously in the logs)
+
+

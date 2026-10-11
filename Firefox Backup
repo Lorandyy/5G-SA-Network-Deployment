@@ -1,0 +1,60 @@
+https://discourse.myriadrf.org/t/lime-sdr-antenna/1340/22
+https://github.com/srsran/srsRAN_Project/issues/1141\
+https://www.reddit.com/r/RTLSDR/comments/j5fo9w/lime_sdr_usb_with_aluminum_case_which_antenna_is/
+limesdr compatible antennas
+https://github.com/ramosaurio/5G-Core-Network-LimeSDR/tree/master
+https://dz-rf.com/de/produkt/lime-sdr/
+https://limemicro.com/sdr/limesdr-usb/
+https://github.com/simula/openairinterface5g
+https://wiki.myriadrf.org/LimeSDR_Hardware_Installation#LimeSDR_USB_RF_Ports
+https://github.com/myriadrf/LMS7002M-docs/blob/master/LMS7002M-DataSheet-2-2r0.pdf
+https://myriadrf.org/projects/limesdr-mini-2-0/reference/index.html
+https://wiki.myriadrf.org/LimeSDR-Core_SDR#Documentation
+https://wiki.myriadrf.org/Lime_Suite
+https://github.com/srsran/srsRAN_Project/discussions/222
+https://github.com/srsran/srsRAN_Project/discussions/364
+https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/how-to-setup-oai-with-lmsdr
+UE TO gNB message 1 2 3
+limesdr to use for 5g network
+https://www.geeksforgeeks.org/linux-unix/lsusb-command-in-linux-with-examples/
+https://github.com/ngkore/Open5GS-srsRAN
+https://www.youtube.com/watch?v=dn2V1daWnXY
+https://github.com/EttusResearch/uhd
+https://docs.ocudu.org/user_manual/installation/
+https://ocudu.org/
+https://docs.ocudu.org/tutorials/cots_ue/
+https://gitlab.com/ocudu/ocudu
+https://github.com/herlesupreeth/docker_open5gs
+https://github.com/open5gs/open5gs
+https://docs.ocudu.org/tutorials/cots_ue/
+https://github.com/pothosware/SoapyUHD
+https://github.com/srsran/srsRAN_Project/discussions/637
+limeSDR USB 
+https://limemicro.com/sdr/limesdr-usb/
+https://developer.android.com/tools/adb
+https://docs.srsran.com/projects/project/en/latest/user_manuals/source/outputs.html
+https://github.com/ramosaurio/5G-Core-Network-LimeSDR/tree/master#-tested-configurations
+https://gemini.google.com/app/6c057b902c092089?hl=ro
+https://gitlab.flux.utah.edu/powder-mirror/openairinterface5g/-/blob/ue-compatible-with-open5gs/radio/BLADERF/README
+https://www.google.com/search?client=ubuntu-sn&channel=fs&q=open5gs+%2B+oai+ran+software+%2B+bladeRF+1.0+MIB+only&udm=50&fbs=ABfTbFWfH4wlW6n2_hxvp9wb2ZU9t6DZUU3cr83ivhVjHIOPzyllWyTxtWvJeeH-omJJ2LsjjMRKm15MiE-elsQTOc_HoKqxAWuRCtrZTgfKl3rh4MP6oQRE1od4_YQteaZkwdRtMFItSlFxO5N-5SCvYoKTtLFmBIzzCWSekFzwEd7iPsD7Mi6Q6wRq8TEdyNQ7shfR0Sgxm55CWPgFBKHpro94Tzg-qQ&aep=10&ntc=1&sxsrf=APpeQnsNMZ6Lap6rb72vU4qO6ZlmyPE1mw%3A1787139553097&mstk=AUtExfA_pByFLTfFpPIY-fQthTXvZo0Ns7gCfonHezhcveJiVjWgwyXlReaFlJEAHRqpWMBL81Yi_6-hzTZ0R6r53qHHikl-rbbPzTlwPx4XsaEZxBL-ffrPKmS6DtSOt5PkCRAhJohGeB3k-1Ya_Yo0w3xDDI1wqzscAVc&aioh=3&csuir=1&atvm=2&mtid=ppaFavfVBfOhkdUP4oPk4AU
+https://free5gc.org/guide/5-install-ueransim/
+https://github.com/open5gs/open5gs/issues/584
+https://www.google.com/search?q=bladerf+1.0+%2B+open5gs+%2B+oai+RAN+not+finding+UE&client=ubuntu-sn&hs=oOj&sca_esv=cf5c3a640caff83a&channel=fs&sxsrf=APpeQnsHSj-Q4KagGPWFCqJ96B5CZuGJRw%3A1787138328164&ei=xpCFaqKLLL6hi-gPhbLo0AM&biw=1850&bih=968&uact=5&sclient=gws-wiz-serp&udm=50&fbs=ABfTbFWfH4wlW6n2_hxvp9wb2ZU9t6DZUU3cr83ivhVjHIOPz0HvbrwjYJs_PtKtV_PT8Tw_vRd2yIRPya3zXNF7fmXNLuDBZmpzx7OleU5u1B9hkUsa5NDHHAgDS4ewRfgc1fsMrjPINP404GrXQtQN460Ohm2YofCz9ePy_5xQ9Bhx9_wg8Evj3DA6tklMnIzZ-LzIM6VAbh2LEXDZoWQM1nWBLGPNHA&aep=10&ntc=1&mstk=AUtExfDwoQjBQUgH1ELAi8uS2SD0ltqnNNPxlYVSYX_TPcELbBQrbm1hxVCCpypta_Nfif1DLS4ku1N3YjplS3v8nj2nOEDJrtLsGKatGHDgKfgZSERhutmLKqHHIR-lELpQpovx4R3G0z95Di9GEIRCDUpb-HsMiheOt5Y&aioh=3&csuir=1&atvm=2&mtid=MJGFaoeRM_2qi-gPnZX00AU
+https://www.cablefree.net/wirelesstechnology/5g-nr/5g-nr-frequency-bands/n28-5g-nr-frequency-band-700mhz-fdd/
+https://github.com/Nuand/bladeRF/wiki/Getting-Started:-Verifying-Basic-Device-Operation
+https://www.nuand.com/bladerf-1/
+https://www.ebay.co.uk/itm/305824023970
+https://www.nuand.com/bladerf-1/
+https://www.mouser.com/datasheet/2/813/bladeRF-brief-1090533.pdf?srsltid=AfmBOoq1fVn7FdP86_qUgf8um8eUDm8q-HesQz4dFKQMJ3R5022EFL1-
+https://www.google.com/search?q=bladerf+1.0+specifications&client=ubuntu-sn&hs=8vN&sca_esv=cf5c3a640caff83a&channel=fs&sxsrf=APpeQnvK5M70GuEDcIo8koEeSDlVqAYDKw%3A1787135185917&fbs=ABfTbFWfH4wlW6n2_hxvp9wb2ZU9Y-KyD-8t-sQx_SyrOaZvh70DkAqFaIi7OiH9U0RfJRqBGonLtzBMW6vPZ9_HxCsSsMFbG2vyv1vTKXrUDGjd8uV6o73QmrgEmWEBUiOxEuuz9zbtY3ToXx32UsLAF9x1xUW6dkRaez9HYKz6_RIRiAPv5gyKs74uQf-bJwgCgelxEOm1_uayeMxs9Yt-_ErvGjygUg&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiS8K-vvayWAxUrR_4FHbOAKQoQ2J8OegQIDxAD&biw=1850&bih=968&dpr=1&mstk=AUtExfAfomowcqXk99Qd35wNrz0Xpw_FGwzgoBPSxmcgHuNteN0xxc6iLOBdrIFV-jJ8BK-pdSqDOED_cX8QwerxXZadvMJ3Aox-UatkAkXwWHA9CUYRHgKAMNpgnUf2x9aWwjI6htZxtkFNVR7HI_hl8KwOHrSxWPfQDkk&csuir=1&atvm=2&udm=50
+https://www.google.com/search?q=limesdr+vs+bladerf+1.0+open5gs+and+ran+software&client=ubuntu-sn&hs=z02&sca_esv=cf5c3a640caff83a&channel=fs&biw=1850&bih=968&sxsrf=APpeQnuVb7lEr9fLpcRPocGnd6jYT7J1Uw%3A1787134245326&ei=AIGFaoLBOr2hi-gP-baQUA&uact=5&sclient=gws-wiz-serp&udm=50&fbs=ABfTbFWfH4wlW6n2_hxvp9wb2ZU9t6DZUU3cr83ivhVjHIOPz0HvbrwjYJs_PtKtV_PT8Tw_vRd2yIRPya3zXNF7fmXNLuDBZmpzx7OleU5u1B9hkUsa5NDHHAgDS4ewRfgc1fsMrjPINP404GrXQtQN460Ohm2YofCz9ePy_5xQ9Bhx9_wg8Evj3DA6tklMnIzZ-LzIM6VAbh2LEXDZoWQM1nWBLGPNHA&aep=10&ntc=1&mstk=AUtExfA3mDpnly_vDUPpU1EjlBP7g22gVBQnLK_YBB6HchQ0qsakiVWGSnD44GZFTXB4fXx9XklqvpBBkQu2lCak8RuvmWS0ZudZJ1KYbSq6koRBL0kXUI19jElSLPigloGMMMnWzvMgAAuxZY3_mr8DVLHuJ3bRk5A9hgQ&aioh=3&csuir=1&atvm=2&mtid=ZIGFaoz8KILri-gPoMKSgA0
+bladerf 1.0 vs limesdr for radio capabilities 5g
+https://en.wikipedia.org/wiki/5G_NR_frequency_bands
+https://github.com/srsran/srsRAN_Project/discussions/222#discussioncomment-7120314
+https://docs.ocudu.org/user_manual/running/
+https://docs.ocudu.org/user_manual/installation/
+https://docs.srsran.com/projects/4g/en/next/app_notes/source/cots_ue/source/index.html
+https://github.com/srsran/srsRAN_Project/discussions/364
+5G SA with BladeRF
+https://open5gs.org/open5gs/docs/guide/01-quickstart/
+https://www.mouser.com/datasheet/2/813/bladeRF-brief-1090533.pdf?srsltid=AfmBOoq1fVn7FdP86_qUgf8um8eUDm8q-HesQz4dFKQMJ3R5022EFL1-
